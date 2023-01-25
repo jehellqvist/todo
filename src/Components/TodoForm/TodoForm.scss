@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+.todo-form {
+  display: flex;
+
+  input {
+    border: 0;
+    flex: 1;
+    font-family: $text-font;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}

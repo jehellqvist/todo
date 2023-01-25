@@ -1,0 +1,9 @@
+@import "../../styles/variables";
+.button {
+  background-color: $color-pink;
+  border: 0;
+  cursor: pointer;
+  font-family: $text-font;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+}
