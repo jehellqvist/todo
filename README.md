@@ -18,3 +18,5 @@ As a user I want to be able to see how the author takes on this task so that I c
 - What about the project structure? For this small example it might not be necessary to think big and divide small, but to make components as dumb and generic as possible always seams like a good idea.
 - I write code for the code reviewing user as much as the end user. I also think it's fun to improve code over time. Function and variable naming sometimes appear harder than coming up with logical solution.
 - A project usually have use of some tests but in this example project I've left it out.
+
+Please reach out if you have questions, I would be happy to discuss code.
