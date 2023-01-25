@@ -1,6 +1,6 @@
 import "./App.scss";
 
-import App from "./app";
+import App from "./App";
 import { createRoot } from "react-dom/client";
 
 const container = document.getElementById("app-root");
