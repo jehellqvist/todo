@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --mode development --config webpack.config.ts",
-    "build": "webpack --mode production",
+    "build": "NODE_ENV=production webpack --mode production --config webpack.config.ts",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
