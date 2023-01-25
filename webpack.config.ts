@@ -44,7 +44,7 @@ const config: Configuration = {
   },
   output: {
     filename: "bundle.js",
-    path: path.resolve(process.cwd(), "dist"),
+    path: path.resolve(__dirname, "./dist"),
   },
   devServer,
   plugins: [
