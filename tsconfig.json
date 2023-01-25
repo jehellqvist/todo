@@ -3,12 +3,12 @@
     "noImplicitAny": true,
     "strict": true,
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "commonjs",
     "sourceMap": true,
     "jsx": "react-jsx",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "Node"
+    "esModuleInterop": true
   },
   "include": ["./src/**/*"]
 }

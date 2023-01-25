@@ -3,6 +3,7 @@ import List from "./components/List/List";
 import ListItem from "./components/ListItem/ListItem";
 import TodoForm from "./components/TodoForm/TodoForm";
 import { TodoDraft, Todos } from "./types/global";
+import "./App.scss";
 
 const App = () => {
   const [todos, setTodos] = useState<Todos>([]);

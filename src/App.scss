@@ -1,0 +1,21 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: #eeebd3;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #255957;
+  text-align: center;
+  @media (min-width: 768px) {
+    max-width: 30vw;
+  }
+}
+
+// #437C90
+// #A98743
+//#F7C548
