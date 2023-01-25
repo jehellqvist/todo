@@ -97,9 +97,9 @@ const App = () => {
       </header>
       <main>
         <TodoForm onSubmit={(todoDraft) => handleSubmit(todoDraft)} />
-        <h2>Todo</h2>
+        {activeListItems.length > 0 && <h2>Todo</h2>}
         <List>{activeListItems}</List>
-        <h2>Archived</h2>
+        {archivedListItems.length > 0 && <h2>Archived</h2>}
         <List archived>{archivedListItems}</List>
       </main>
     </div>
