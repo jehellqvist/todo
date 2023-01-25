@@ -54,7 +54,7 @@ const config: Configuration = {
     }),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "index.html"),
-      filename: "index.[hash].html",
+      filename: "index.html",
       hash: true,
     }),
   ],
