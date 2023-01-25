@@ -53,9 +53,9 @@ const config: Configuration = {
       chunkFilename: "[id].css",
     }),
     new HtmlWebpackPlugin({
-      template: "index.html",
+      template: path.join(__dirname, "dist/index.html"),
+      filename: "index.[hash].html",
       hash: true,
-      filename: "../dist/index.html",
     }),
   ],
 };
