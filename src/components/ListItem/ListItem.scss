@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.list-item {
+  background-color: $color-white;
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  width: 100%;
+
+  input {
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  label {
+    cursor: pointer;
+    flex: 1;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  &.attr[name="archived_todos"] {
+    opacity: 0.7;
+  }
+}
